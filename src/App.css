@@ -1,0 +1,27 @@
+.admin-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    height: 100vh; /* Full viewport height */
+    width: 100vh;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+body
+{
+  background-image: url('../src/assets/bg1.jpg');
+  box-sizing: border-box;
+  background-size: contain;
+  
+}
+.transparent-bg
+{
+
+  background-color: rgb(255, 255, 255,0.96); /* Adjust the opacity (last value) as needed */
+}
+
